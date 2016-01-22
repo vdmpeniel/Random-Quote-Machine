@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+}
+.randomQ{
+    /*visibility: hidden;*/
+    margin: 0;
+}
+h1{
+    position: absolute;
+    z-index: 10;
+    top:17.5%;
+    left: 3%;
+    color: #c6c7f3;
+    font-size: 5em;
+    font-family: 'Lily Script One', cursive;
+    
+}
+h4{
+  color: #e6a789;
+}
+.cita{
+    z-index: 0;
+    position: absolute;
+    top: 28%;
+    background-color: #2a435c;
+    width:100%;
+    height:35%;
+    padding: 30px 0 15px 15%;    
+    
+}
+
+#overlay{
+    z-index: 2;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://0.s3.envato.com/files/35444536/Decorative%20floral%20seamless%20pattern%20-%20vector%20background%20590.jpg");
+    background-position: 0px -30px;
+    
+    background-repeat: repeat-x;
+    background-origin: ;
+    opacity: 0.2;
+}
+
+.cont{
+    z-index: 5;
+    position: absolute;
+    width: 70%;    
+    padding: 5px 20px;
+    background-color: rgba(0,0,0,0.1);
+    outline: none;
+    border-style: none;
+    border-width:0px !important;
+    border-radius: 7px;
+    color: lightgray;
+    
+}
+footer{
+    color:#e6a789 !important;
+}
+blockquote{
+    border-color:#e6a789;
+    font-size: 1.2em;
+}
+p{
+    font-size: 1.3em !important;
+    
+}
+.bttns{    
+    z-index: 6;
+    position: absolute;
+    width:  200px;
+    top:80%;
+    right: 15%;
+        
+}
+.bttn{
+    float: left;
+    margin-left: 5px;
+    padding: 4px 10px 2px 6px;
+    outline: none;
+    box-shadow:  0 0 10px #1d2f40;
+    border-bottom-style: none;
+    border-width: 0px;
+    border-radius: 7px;
+    background-color: #7b9dff;
+    color: white;
+        
+}
+.bttn:link{
+    outline: none;
+    border-bottom-style: none;
+}
+.bttn:hover{
+    background-color: #e6a789;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+.fa{
+  font-size: 2em !important;
+  vertical-align: middle;
+  margin-right: 7px;
+  
+}
+
+canvas{
+    z-index: -20;
+  display: block;
+  position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+/*------------------------------------------------------------------------*/
+/*MEDIA QUERIES*/
+@media screen and (max-width: 750px) {
+    
+    h1{
+        left:2%;
+        top:15.5%;
+        left: 1%;
+        font-size: 4em;
+    }
+    .cita{
+        
+    }
+    blockquote{
+        font-size: 1em;
+    }
+   
+}
+/*------------------------------------------------------------------------*/
+/*MEDIA QUERIES*/
+@media screen and (max-width: 590px) {
+    h1{
+        left:2%;
+        top: 23%;
+        left: 1%;
+        font-size: 2.5em;
+    }
+    .cita{
+        top: 30%;
+        padding-left: 5%;  
+        height: 45%;
+    }
+    .cont{    
+        width: 90%;    
+        padding: 5px 10px;
+    }
+    blockquote{
+        font-size: 0.7sem;
+    }
+    .bttns{
+        top: 85%;
+        right: 5%;
+        width: 90%;
+    }
+    .bttn{  
+        
+        width: 47%;
+        margin: 0 3px;
+        
+    }
+    
+   
+}
+/*------------------------------------------------------------------------*/
+/*MEDIA QUERIES*/
+@media screen and (max-width: 380px) {
+    .cita{        
+        padding-top: 12%; 
+        height:55%;
+    }
+    .bttns{
+       top:70%;
+       
+    }
+    .bttn{  
+        text-align: left;
+        width: 100%;
+        margin: 3px 0;
+        padding-left: 40%;
+    }
+    
+   
+}
